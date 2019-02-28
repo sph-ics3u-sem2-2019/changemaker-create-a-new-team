@@ -25,63 +25,63 @@ System.out.println("change amount: " +change );
 
 		int q=(int)(change/100);
 		double r=(change%100);
-
-		System.out.println("Amount of 100 bills exactly :  " +q);
-
+if (q != 0) {   
+		System.out.println("Amount of $100 bills:  " +q);
+}
 		int q2=(int)(r/50);
 
 		double r2=(r%50); 
-
-		System.out.println("Amount of 50 bills exactly:  " +q2);
-
+		if (q2 != 0) {   
+		System.out.println("Amount of $50 bills:  " +q2);
+		}
 		int q3=(int)(r2/20);
 
 		double r3=(r2%20); 
-
-		System.out.println("Amount of 20 bills exactly:  " +q3);
-	
+		if (q3 != 0) {   
+		System.out.println("Amount of $20 bills:  " +q3);
+		}
 		int q4=(int)(r3/10);
 
 		double r4=(r3%10); 
-
-		System.out.println("Amount of 10 bills exactly:  " +q4);
-
+		if (q4 != 0) {   
+		System.out.println("Amount of $10 bills:  " +q4);
+		}
 		int q5=(int)(r4/5);
 
 		double r5=(r4%5);
-
-		System.out.println("Amount of 5 bills exactly:  " +q5);
-
+		if (q5 != 0) {   
+		System.out.println("Amount of $5 bills:  " +q5);
+		}
 		int q6=(int)(r5/2); 
 
 		double r6=(r5%2);
-
-		System.out.println("Exact amount of toonies:  " +q6);
-
+		if (q6 != 0) {   
+		System.out.println("Amount of toonies:  " +q6);
+		} 
 		int q7=(int)(r6/1); 
 
 		double r7=(r6%1);
-
-		System.out.println("Exact amount of loonies:  " +q7);
-
+		if (q7 != 0) {   
+		System.out.println("Amount of loonies:  " +q7);
+		}
 		int q9=(int)(r7/0.25); 
 
 		double r9=(r7%0.25);
-
-		System.out.println("Exact amount of quarters:  " +q9);
-
+		if (q9 != 0) {   
+		System.out.println("Amount of quarters:  " +q9);
+		}
 		int q10=(int)(r9/0.10); 
 
 		double r10=(r9%0.10);
-
-		System.out.println("Exact amount of dimes:  " +q10);
-
+		if (q10 != 0) {   
+		System.out.println("Amount of dimes:  " +q10);
+		}
 		int q11=(int)(r10/0.05); 
 
 		double r11=(r10%0.05);
-
-		System.out.println("Exact amount of nickels:  " +q11);
-
+		if (q11 != 0) {   
+		System.out.println("Amount of nickels:  " +q11);
+		}
 	}
 
 }
